@@ -12,7 +12,14 @@ import NavBar from "@/components/NavBar.vue";
       <a-layout-content>
         <RouterView />
       </a-layout-content>
-      <a-layout-footer>Footer</a-layout-footer>
+      <a-layout-footer>
+        <div>
+          © All rights reserved by Su BaiQiao
+        </div>
+        <div>
+          Record number 湘ICP备2022009821号
+        </div>
+      </a-layout-footer>
     </a-layout>
   </div>
 </template>
