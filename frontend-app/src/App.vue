@@ -5,7 +5,7 @@ import NavBar from "@/components/NavBar.vue";
 
 <template>
   <div class="layout-demo">
-    <a-layout style="height: 100vh;">
+    <a-layout style="height: 100vh;width: 1024px;margin: 0 auto">
       <a-layout-header>
         <NavBar/>
       </a-layout-header>
